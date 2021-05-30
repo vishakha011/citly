@@ -1,7 +1,8 @@
 class LinksController < ApplicationController
 
   def index
-    render html: "This is index action of Tasks controller"
+    links = Link.all
+    render status: :ok, json: {links: links}
   end
 
   def create

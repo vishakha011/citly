@@ -9,12 +9,15 @@ const App = () => {
   }, []);
 
   return (
-    <Router>
-      <Switch>
-        <Route exact path="/" render={() => <div>Home</div>} />
-        <Route exact path="/about" render={() => <div>About</div>} />
-      </Switch>
-    </Router>
+    <center>
+      <h1>This is App.jsx</h1>
+    </center>
+    // <Router>
+    //   <Switch>
+    //     <Route exact path="/" render={() => <div>Home</div>} />
+    //     <Route exact path="/about" render={() => <div>About</div>} />
+    //   </Switch>
+    // </Router>
   );
 };
 
