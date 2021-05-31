@@ -9,17 +9,15 @@ const Input = ({
   required = true,
 }) => {
   return (
-    <div className="mt-6">
-      <div className="w-full">
-        <input
-          type={type}
-          required={required}
-          value={value}
-          onChange={onChange}
-          placeholder={placeholder}
-          className="bg-white border-2 border-white rounded-l appearance-none w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:border-purple-500"
-        />
-      </div>
+    <div className="w-full">
+      <input
+        type={type}
+        required={required}
+        value={value}
+        onChange={onChange}
+        placeholder={placeholder}
+        className="bg-white border-2 border-white rounded-l appearance-none w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:border-purple-500"
+      />
     </div>
   );
 };
