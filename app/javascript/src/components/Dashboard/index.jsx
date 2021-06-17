@@ -48,7 +48,6 @@ const Dashboard = ({ history }) => {
     try {
       setLoading(true);
       const response = await linksApi.list();
-      // logger.info(response);
       setLinks(response.data.links);
       setPageLoading(false);
     } catch (error) {
